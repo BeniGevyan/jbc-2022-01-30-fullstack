@@ -3,31 +3,34 @@
   <head>
     <title>HTML tags</title>
   </head>
+  <body>
     <h1>Welcome to our site!</h1>
     <h3>Written by JB Students</h3>
-    <hr/>
-    <br/>
-    <br/>
-    <br/>
+    <hr />
+    <br />
+    <br />
+    <br />
     <p>This site is made using VSCODE</p>
 
     <!-- br line break -->
-    <br/>
- 
+    <br />
+
     <!-- a: anchor - link to another web page -->
     <a target="_blank" href="http://netflix.com">Netflix</a>
 
-    <br/>
+    <br />
 
     <!-- remote image (from another server) -->
-    <img src="https://image.shutterstock.com/image-photo/strawberry-isolated-strawberries-leaf-isolate-600w-1746382604.jpg" />
+    <img
+      src="https://image.shutterstock.com/image-photo/strawberry-isolated-strawberries-leaf-isolate-600w-1746382604.jpg"
+    />
 
     <!-- local image (stored in my server) -->
-    <img src="assets/car.jpg" width="200"/>
-    <img src="assets/car.jpg" width="200" height="200"/>
+    <img src="assets/car.jpg" width="200" />
+    <img src="assets/car.jpg" width="200" height="200" />
 
-    <br/>
-    
+    <br />
+
     <!-- ul = unordered list -->
     <ul>
       <!-- li = list item -->
@@ -50,9 +53,8 @@
     <span>this is span text...</span>
     <span>this is span text...</span>
 
-
     <br />
-    <br/>
+    <br />
 
     <table border="1" align="center">
       <!-- tr = table row -->
@@ -74,7 +76,7 @@
       </tr>
     </table>
 
-    <br/>
+    <br />
 
     <table border="1" align="center">
       <!-- thead = table head -->
@@ -116,9 +118,64 @@
     <!-- iframe - inline frame -->
     <!-- <iframe src="https://walla.co.il" width="600" height="400"></iframe> -->
 
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/EQA9K3QsWa0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EQA9K3QsWa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <form>
+      <label>First Name:</label>
+      <input type="text" placeholder="Enter your name here" />
+      <br />
+      <label>Last Name:</label>
+      <input type="text" placeholder="Enter your last here" />
+      <br />
+      <label>Birth Date:</label>
+      <input type="date" />
+      <br />
+      <label>I Agree to the terms and conditions</label>
+      <input type="checkbox" />
+      <br />
+      <label>I Know HTML</label>
+      <input type="checkbox" />
+      <br />
+      <label>I Know CSS</label>
+      <input type="checkbox" />
+      <br />
+      <label>Male</label>
+      <input type="radio" name="gender" />
 
+      <label>Female</label>
+      <input type="radio" name="gender" />
 
+      <br />
+      <label>Address:</label>
+      <textarea row="5"></textarea>
+      <br />
+      <label>City:</label>
+      <select>
+        <option>Tel Aviv</option>
+        <option>Jerusalem</option>
+        <option>Eilat</option>
+        <option>Lod</option>
+        <option>Ramat Gan</option>
+      </select>
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <span>this is span</span>
+    <div>
+      <span>this is span text...</span>
+      <span>this is span text...</span>
+      <span>this is span text...</span>
+    </div>
+    <spa>this is third span</spa>
   </body>
 </html>
