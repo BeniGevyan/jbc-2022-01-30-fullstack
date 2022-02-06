@@ -9,7 +9,7 @@ html, head, body, title, h1, h2, h3, h4 ,h5, h6, hr, br, p, a, img, span, ul, ol
 
 create a "Contact Us" webpage in hebrew (search Google how to align right), the user can enter the following:
 first name, last name, birthday, email, phone number, address (multiple lines), the user's homepage, car owner yes/no (radio), has kids (checkbox), has pets (checkbox), area in israel (דרום/מרכז/צפון/אחר), and button to submit.
-Each input must have a label. Bonus - search Google how to make the checkbox and radio label to chage the value of the input what clicked on.
+Each input must have a label. Bonus - search Google how to make the checkbox and radio label to change the value of the input when clicked on.
 
 ## 3. Multipage Website
 
