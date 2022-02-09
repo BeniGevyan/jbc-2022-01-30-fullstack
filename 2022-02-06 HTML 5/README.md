@@ -2,9 +2,9 @@
 
 ## Semantic Tags
 
-These are block tags with meaning
+These are block tags that clearly describes its meaning to both the browser and the developer.
 
-## Case
+## Types of letter cases
 
 `thisIsCamelCase`
 
