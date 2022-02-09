@@ -1,0 +1,12 @@
+/* URL as value */
+body {
+  /* background-image: url(./assets/geio-tischler-rS2pN_4GJ_o-unsplash.jpeg); */
+ /* background-image: url(./assets/toa-heftiba-FV3GConVSss-unsplash.jpeg); */
+
+ background-size: cover;
+ background-image: url(./assets/toa-heftiba-FV3GConVSss-unsplash.jpeg); 
+}
+
+.center {
+  text-align: center;
+}

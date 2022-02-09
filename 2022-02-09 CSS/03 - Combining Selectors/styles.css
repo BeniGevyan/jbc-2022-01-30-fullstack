@@ -1,0 +1,29 @@
+.colorful {
+  color: green;
+  background-color: hotpink;
+}
+
+.large {
+  font-size: xx-large;
+}
+
+/* combining multiple elements */
+h1, h2 {
+  text-align: center;
+}
+
+/* only p element with beautiful class */
+p.beautiful {
+  color: blueviolet;
+}
+
+/* each span that is somewhere inside p */
+p span { 
+  color: green;
+}
+
+/* eqach span that is directly inside p */
+p > span {
+  background-color: lightcoral;
+}
+

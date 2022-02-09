@@ -1,0 +1,41 @@
+p {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  text-decoration: underline;
+}
+
+input {
+  /* background-color: yellow;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px; */
+  /* border: 5px dashed red; */
+
+  /* border: 2px solid black; */
+
+  /* border-bottom: 5px dashed;
+
+  border-top: 5px dashed red;
+
+  border-right: royalblue solid;
+
+  border-left: green dotted; */
+
+
+  border-color: red green yellow brown;
+
+  border-width: 7px 2px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
