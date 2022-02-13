@@ -22,7 +22,7 @@ p span {
   color: green;
 }
 
-/* eqach span that is directly inside p */
+/* each span that is directly inside p */
 p > span {
   background-color: lightcoral;
 }

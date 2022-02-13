@@ -1,0 +1,96 @@
+div {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: orange;
+  font-size: x-large;
+}
+
+/* the first child */
+div:first-child {
+  background-color: palegoldenrod;
+}
+
+
+/* every "zugi" span that insdie the first div */
+div:first-child > span:nth-child(even) {
+  color: green;
+}
+
+/* every "ei-zugi" span that insdie the first div */
+div:first-child > span:nth-child(odd) {
+  color: red;
+}
+
+/* the second div, resize by the user */
+div:nth-child(2) {
+  resize: both;
+  overflow: auto;
+}
+
+/* rounded corners */
+div:nth-child(3) {
+  border-radius: 10px 20px 30px 40px;
+}
+
+/* shadowing */
+div:nth-child(4) {
+  box-shadow: 10px 5px 15px gray;
+  text-shadow: 5px 5px 2px blue;
+}
+
+
+/* gradient effect דירוג צבעים */
+div:nth-child(5) {
+  /* background: linear-gradient(red, green, blue); */
+  background: linear-gradient(45deg, red, green, blue);
+}
+
+/* transformation */
+div:nth-child(6) {
+  /* transform: scale(1.5); */
+  /* transform: rotate(45deg) */
+  /* transform: translate(100px, -200px) */
+  transform: scale(1.5) rotate(45deg) translate(100px, -200px);
+}
+
+/* transition over time */
+div:nth-child(7):hover {
+  /* transition: background-color 5s, box-shadow 5s; */
+  transition: all 3s;
+  background-color: green;
+  box-shadow: 10px 5px 15px gray;
+}
+
+
+/* animation definition */
+@keyframes CoolAnimation {
+  from {
+    background-color: black;
+    box-shadow: none;
+  }
+  to {
+    background-color: green;
+    box-shadow: 10px 5px 15px gray;
+    transform: scale(1.5);
+  }
+}
+
+
+/* apply animation */
+div:nth-child(8):hover {
+  /* animation: CoolAnimation 3s; */
+  animation: CoolAnimation 3s infinite alternate linear;
+}
+
+/* importing the font file */
+@font-face {
+  font-family: Avi;
+  src: url(./assets/fonts/zai_TornPaper.ttf);
+}
+
+/* apply the custom font */
+div:nth-child(9) {
+  font-family: Avi;
+}

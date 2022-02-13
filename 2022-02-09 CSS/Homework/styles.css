@@ -1,0 +1,39 @@
+body {
+  background-image: url('');
+}
+
+.header-text {
+  text-align: center;
+  font-size: xx-large;
+  color: brown;
+  direction: rtl;
+}
+
+.welcome-text {
+  text-align: center;
+  direction: rtl;
+}
+
+.login-table {
+  border-style: solid;
+}
+
+input[type="text"], input[type="password"] {
+  background-color: yellow;
+}
+
+#copyrights, #img-container {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+form {
+  direction: rtl;
+}
+
+img {
+  width: 200px;
+}

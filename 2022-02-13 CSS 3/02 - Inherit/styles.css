@@ -1,0 +1,10 @@
+.container1, .container2 {
+  color: red;
+  border: solid 2px blue;
+  margin: 10px;
+}
+
+.container1 > p {
+  color: initial;
+  border: inherit;
+} 
