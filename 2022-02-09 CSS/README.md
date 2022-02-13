@@ -96,3 +96,30 @@ p {
 }
 ```
 
+4. a. General Attribute Selector  
+```css
+p[dir] {
+  color: red;
+}
+```  
+
+4. b. Exact Attribute Selector  
+```css
+p[dir="rtl"] {
+  text-decoration: line-through;
+}
+```  
+
+5. a. Pseudo-Class Selector  
+```css
+h1:hover {
+  color: tomato;
+}
+```  
+
+5. b. Pseudo-Element Selector  
+```css
+p::selection {
+  background-color: yellow;
+}
+```
