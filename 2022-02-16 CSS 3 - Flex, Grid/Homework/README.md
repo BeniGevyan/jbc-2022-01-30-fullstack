@@ -51,8 +51,8 @@ Add CSS to make it look like this: (**without changing the HTML**)
 2. Use grid to create this layout:  
    ![Layout1](layout1.png)
 
-3. Use grid to create this layout:  
+3. Use grid to create this layout (Logo should be a cell in the grid):  
    ![Layout2](layout2.png)
 
-4. Use grid to create this layout:  
+4. Use grid to create this layout (The Header and Logo should be placed using flex):  
    ![Layout3](layout3.png)
