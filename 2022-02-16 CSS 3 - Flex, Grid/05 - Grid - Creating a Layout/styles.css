@@ -1,0 +1,35 @@
+/* general styling */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  font-size: x-large;
+  background: linear-gradient(45deg, lightblue, white);
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 15% 80% 5%;
+  border: 1px solid black;
+}
+
+header {
+  grid-column: span 6;
+}
+
+main {
+  grid-column: span 4;
+}
+
+footer {
+  grid-column: span 6;
+}
+
+.container > * {
+  border: 1px solid black;
+}

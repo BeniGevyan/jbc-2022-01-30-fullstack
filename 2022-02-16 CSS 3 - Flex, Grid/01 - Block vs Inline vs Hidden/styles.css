@@ -1,0 +1,21 @@
+div {
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+
+  /* display: inline; */
+  display: inline-block;
+}
+
+a {
+  display: block;
+  border: 1px solid black;
+}
+
+p {
+  /* Hide this Element, do not reserve its place */
+  /* display: none; */
+
+  /* Hide this Element, reserve its place */
+  visibility: hidden;
+}
