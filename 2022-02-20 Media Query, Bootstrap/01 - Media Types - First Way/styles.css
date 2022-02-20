@@ -1,0 +1,19 @@
+@media screen {
+  body {
+    background-color: darkcyan;
+  }
+
+  p {
+    color: lightcyan;
+  }
+}
+
+@media print {
+  body {
+    font-size: xx-large;
+  }
+
+  p {
+    color: darkred;
+  }
+}

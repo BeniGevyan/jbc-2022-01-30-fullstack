@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-color: darkcyan;
+  }
+  p {
+    color: lightcyan;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  body {
+    background-color: yellow;
+  }
+  p {
+    color: darkred;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  body {
+    background-color: lightpink;
+  }
+
+  p {
+    color: darkblue;
+  }
+}
