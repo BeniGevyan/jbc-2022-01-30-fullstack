@@ -1,5 +1,7 @@
 # John Bryce - Full Stack Course
 
+Guy Barsheshet Email: guy@barsheshet.com
+
 Full Stack Course started at 30th of January 2022
 
 ##
