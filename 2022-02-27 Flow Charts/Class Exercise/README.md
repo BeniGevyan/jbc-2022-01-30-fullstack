@@ -18,8 +18,8 @@ If he is 70 years old or more, display `You deserve a discount`,
 else, display nothing.  
 *use the operator `NOT` in your solution. 
 
-5. Get a count from the user.  
-display your first name `count` times.
+5. Get one number from the user.  
+display your first name `number` times.
 
 6. Display all even numbers between `2` and `1000` (inclusive).
 
