@@ -39,7 +39,7 @@
    If not all are legal, display the illegal grades.
 
 3. Create an array.  
-   Fill the array with 100 random integer numbers between `1` and `100` (inclusive).  
+   Fill the array with 10 numbers you get from the user.  
    Display:
 
 - all the numbers separated with `|`.

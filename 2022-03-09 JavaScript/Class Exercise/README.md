@@ -54,8 +54,3 @@ Display each in a separate line
    Fill the array with 7 grades you get from the user.
    Display all grades.  
    Display the position (index) of the lowest grade.
-
-9. Create an array.  
-   Fill the array with 100 random integer numbers from `0` (included) to `100` (not included).  
-   Display all numbers.  
-   Display the lowest number.
