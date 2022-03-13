@@ -7,22 +7,22 @@
 1. Create an object that describes a rectangle.  
    The object has the following properties: `width`, `height`, `x` position, and `y` position.  
    Set the properties with "Hard-Coded" values.  
-   Display the properties using a "for" loop.
+   Display the properties without using a loop.
    Display the properties using a "for-in" loop.
 
 2. Create an object that describes a smartphone.  
    The object has the following properties: `maker`, `model`, `color`, `price`.  
    Set the properties with "Hard-Coded" values.  
-   Display the properties using a "for" loop.
+   Display the properties without using a loop.
    Display the properties using a "for-in" loop.
    Set the properties with values you get from the user.
-   Display the properties again using a "for" loop.
+   Display the properties without using a loop.
    Display the properties again using a "for-in" loop.
 
 3. Create an object that describes a customer.  
    The object has the following properties: `firstName`, `lastName`, `email`, `phoneNumber`, `creditCard`.  
    `creditCard` is an object that has: `type` (Visa, Mastercard...), `number`, `expiration`, `CVV`.  
-   Display all properties, including the credit card properties, using a "for" loop.
+   Display all properties, including the credit card properties without using a loop.
    Display all properties, including the credit card properties, using a "for-in" loop.
 
 ### B. Arrays
