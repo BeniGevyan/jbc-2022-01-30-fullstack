@@ -7,7 +7,7 @@
 //var a = NaN;
 //var a = "Hello";
 //var a = "";
-var a = false;
+//var a = false;
 if (a) {
   document.write("I'm Truthy");
 } else {
