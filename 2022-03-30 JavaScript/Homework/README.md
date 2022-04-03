@@ -95,7 +95,7 @@
 ```
 
 Create another function that gets an integer number `n` as an argument.  
- The function should display a rectangle of numbers with `n` as a base.  
+ The function should display a triangle of numbers with `n` as a base.  
  For example, `n` is `5`, display:
 
 ```
@@ -107,7 +107,7 @@ Create another function that gets an integer number `n` as an argument.
 ```
 
 17. Create a function that gets an integer number `n` as an argument.  
-    The function should display a rectangle of Asterix (`*`) with `n` as a base.  
+    The function should display a triangle of Asterix (`*`) with `n` as a base.  
     For example, `n` is `5`, display:
 
 ```
@@ -119,7 +119,7 @@ Create another function that gets an integer number `n` as an argument.
 ```
 
 18. Create a function that gets an integer number `n` as an argument.  
-    The function should display a rectangle of numbers and Asterix (`*`) by `n`.  
+    The function should display a triangle of numbers and Asterix (`*`) by `n`.  
     For example, `n` is `4`, display:
 
 ```
@@ -132,7 +132,7 @@ Create another function that gets an integer number `n` as an argument.
 Break your script into appropriate functions.
 
 19. Create a function that gets an integer number `n` as an argument.  
-    The function should display two rectangles of Asterix (`*`) with `n` as a base.  
+    The function should display two triangles of Asterix (`*`) with `n` as a base.  
     For example, `n` is `4`, display:
 
 ```
@@ -149,12 +149,12 @@ Break your script into appropriate functions.
 Break your script into appropriate functions.
 
 20. **challenge** - Create a function that gets an integer number `n` as an argument.  
-    The function should display a symmetric rectangle of numbers by `n`.  
+    The function should display a symmetric triangle of numbers by `n`.  
     For example, `n` is `4`, display:
 
 ```
    1
-  212
+  121
  12321
 1234321
 ```
