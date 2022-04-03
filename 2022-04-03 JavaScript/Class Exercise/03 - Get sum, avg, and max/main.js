@@ -6,8 +6,8 @@ function getSum(arr) {
   return sum;
 }
 
-function getAvg(arr) {
-  const sum = getSum(arr);
+function getAvg(myArr) {
+  const sum = getSum(myArr);
   return sum / arr.length;
 }
 
