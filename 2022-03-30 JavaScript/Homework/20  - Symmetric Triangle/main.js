@@ -1,20 +1,33 @@
-// NOT DONE YET!!!
-
-function printLine(n, lineNum) {
-  for (i = 1; i < n; i++) {
-    if (i > lineNum) {
-      document.write("&nbsp;&nbsp;");
-    }
-  }
-
-  document.write(lineNum);
-  for (i = n; i > 0; i--) {
-    if (i > lineNum) {
-      document.write("&nbsp;&nbsp;");
-    }
+function printSpaces(num) {
+  for (let i = 1; i <= num; i++) {
+    document.write("&nbsp;&nbsp;");
   }
 }
 
-printLine(4, 1);
-document.write("<br/>");
-printLine(4, 2);
+function printOneToNumber(num) {
+  for (let i = 1; i <= num; i++) {
+    document.write(i);
+  }
+}
+
+function printNumberToOne(num) {
+  for (let i = num; i >= 1; i--) {
+    document.write(i);
+  }
+}
+
+function printLine(n, lineNumber) {
+  printSpaces(n - lineNumber);
+  printOneToNumber(lineNumber);
+  printNumberToOne(lineNumber - 1);
+  printSpaces(n - lineNumber);
+}
+
+function printTriangle(n) {
+  for (let i = 1; i <= n; i++) {
+    printLine(n, i);
+    document.write("<br/>");
+  }
+}
+
+printTriangle(4);
