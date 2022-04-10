@@ -1,0 +1,17 @@
+<allProducts>
+  <product>
+    <id>1</id>
+    <name>Apple</name>
+    <price currency="usd">3.5</price>
+  </product>
+    <product>
+    <id>2</id>
+    <name>Banana</name>
+    <price currency="usd">5.7</price>
+  </product>
+    <product>
+    <id>3</id>
+    <name>Peach</name>
+    <price currency="usd">2.7</price>
+  </product>
+</allProducts>
