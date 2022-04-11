@@ -22,3 +22,4 @@ Full Stack Course started at 30th of January 2022
 14. [30/03/2022 JavaScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-03-30%20JavaScript)
 15. [03/04/2022 JavaScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-04-03%20JavaScript)
 16. [06/04/2022 JavaScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-04-06%20JavaScript)
+17. [10/04/2022 JavaScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-04-10%20JavaScript)
