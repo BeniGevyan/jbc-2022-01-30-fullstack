@@ -1,0 +1,26 @@
+- General Commands
+cd <directory name>                                Change current directory
+cd ..                                              Go one directory up
+ls                                                 List all files and folders
+clear                                              Clear the terminal
+
+- Git Commands
+git --version                                      Display git version
+git config --global user.name "<your username>"    Set your username once 
+git config --global user.email "<your email>"      Set your email
+git config user.name                               Show my username
+git config user.email                              Show my email
+git init                                           Initialize new local repository
+git status                                         List all changes
+git add <file>                                     Add a file to staging
+git add --all                                      Add all files to staging
+git commit -m "<my commit message>"                Commit all files in staging to repository
+git commit -a -m "<my commit message>"             Add to staging + commit all changes
+git log                                            List commit history
+git branch                                         List of all branches (current branch marked with *)
+git branch <branch name>                           Creates new branch
+git checkout <branch name>                         Change current branch
+git merge <branch name>                            Merge <branch name> into current branch
+git remote add origin <repository url>             Add github remote repository
+git push                                           Push my changes to remote repository
+git pull                                           Pull all changes to local repository (always start working with this command)
