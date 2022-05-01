@@ -32,6 +32,7 @@ function loadBooks() {
     const arr = JSON.parse(currentBooks);
 
     const table = document.createElement('table');
+    table.setAttribute('class', 'table table-striped table-bordered table-hover');
     const tableHeaderRow = document.createElement('tr');
 
     const th1 = document.createElement('th');
