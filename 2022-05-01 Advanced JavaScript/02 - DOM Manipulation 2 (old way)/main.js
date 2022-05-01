@@ -29,27 +29,45 @@ function save() {
 function loadBooks() {
   const currentBooks = localStorage.getItem('allBooks');
   if (currentBooks) {
-    let table = `<table>
-    <tr>
-      <th>Book Name</th>
-      <th>Book Author</th>
-      <th>Book Price</th>
-    </tr>`;
-
     const arr = JSON.parse(currentBooks);
+
+    const table = document.createElement('table');
+    const tableHeaderRow = document.createElement('tr');
+
+    const th1 = document.createElement('th');
+    const th2 = document.createElement('th');
+    const th3 = document.createElement('th');
+
+    th1.innerText = 'Book Name';
+    th2.innerText = 'Book Author';
+    th3.innerText = 'Book Price';
+
+    tableHeaderRow.appendChild(th1);
+    tableHeaderRow.appendChild(th2);
+    tableHeaderRow.appendChild(th3);
+
+    table.appendChild(tableHeaderRow);
+
     for (const book of arr) {
-      table += `
-      <tr>
-        <td>${book.name}</td>
-        <td>${book.author}</td>
-        <td>${book.price}</td>
-      </tr>`;
+      const tableRow = document.createElement('tr');
+      const td1 = document.createElement('td');
+      const td2 = document.createElement('td');
+      const td3 = document.createElement('td');
+
+      td1.innerText = book.name;
+      td2.innerText = book.author;
+      td3.innerText = book.price;
+
+      tableRow.appendChild(td1);
+      tableRow.appendChild(td2);
+      tableRow.appendChild(td3);
+
+      table.appendChild(tableRow);
     }
 
-    table += '</table>';
-
     const containerDiv = document.querySelector('#containerDiv');
-    containerDiv.innerHTML = table;
+    containerDiv.innerHTML = '';
+    containerDiv.appendChild(table);
   }
 }
 
