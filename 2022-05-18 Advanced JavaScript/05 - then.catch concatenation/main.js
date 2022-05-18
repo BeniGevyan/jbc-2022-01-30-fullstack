@@ -14,8 +14,7 @@ function doSomething(min, max) {
 }
 
 function run() {
-  let myPromise = doSomething(0, 180);
-  myPromise
+  doSomething(0, 180)
     .then((result) => alert(result))
     .catch((error) => console.log(error.message));
 }

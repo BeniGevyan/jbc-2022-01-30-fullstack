@@ -1,6 +1,6 @@
 # Class Exercise
 
-1. Create a function named `getRandomColorAfterDelay`.  
+1. Create a function named `getRandomColorAfterDelayAsync`.  
    This function should generate a random color between red, blue, green, white, grey, and black after a `3` seconds delay.  
    The function should return a Promise.  
    If the random color is black, the Promise should reject with an error.
