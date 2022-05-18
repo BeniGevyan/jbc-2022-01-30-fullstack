@@ -11,20 +11,17 @@ function getRandomEvenNumberAfterDelayAsync(min, max) {
   });
 }
 
-function showNumber() {
-  getRandomEvenNumberAfterDelayAsync(1, 1000)
-    .then((num1) => {
-      alert(`first num: ${num1}`);
-      getRandomEvenNumberAfterDelayAsync(1, num1)
-        .then((num2) => {
-          alert(`first num: ${num2}`);
-          getRandomEvenNumberAfterDelayAsync(1, num2)
-            .then((num3) => alert(`first num: ${num3}`))
-            .catch((err) => console.log(err.message));
-        })
-        .catch((err) => console.log(err.message));
-    })
-    .catch((err) => console.log(err.message));
+async function showNumber() {
+  try {
+    const num1 = await getRandomEvenNumberAfterDelayAsync(1, 1000);
+    alert(`first num: ${num1}`);
+    const num2 = await getRandomEvenNumberAfterDelayAsync(1, num1);
+    alert(`second num: ${num2}`);
+    const num3 = await getRandomEvenNumberAfterDelayAsync(1, num2);
+    alert(`third num: ${num3}`);
+  } catch (err) {
+    console.log(`Error: ${err.message}`);
+  }
 }
 
 function onWindowLoad() {
