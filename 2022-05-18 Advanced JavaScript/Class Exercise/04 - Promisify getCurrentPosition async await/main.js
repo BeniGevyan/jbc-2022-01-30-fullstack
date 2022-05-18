@@ -7,12 +7,13 @@ function getCurrentPositionAsync() {
   });
 }
 
-function getPostion() {
-  getCurrentPositionAsync()
-    .then((result) =>
-      alert(`long: ${result.coords.longitude}, lat: ${result.coords.latitude}`),
-    )
-    .catch((error) => console.log(error.message));
+async function getPostion() {
+  try {
+    const result = await getCurrentPositionAsync();
+    alert(`long: ${result.coords.longitude}, lat: ${result.coords.latitude}`);
+  } catch (err) {
+    console.log(err.message);
+  }
 }
 
 function onWindowLoad() {
