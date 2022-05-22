@@ -14,8 +14,8 @@ function generateStrongPasswordAsync() {
       console.log(password);
 
       let isUpper = false;
-      for (let i = 0; i < password.length; i++) {
-        if (chars.indexOf(password[i]) <= 25) {
+      for (let c of password) {
+        if (chars.indexOf(c) <= 25) {
           isUpper = true;
           break;
         }
@@ -26,11 +26,8 @@ function generateStrongPasswordAsync() {
       }
 
       let isLower = false;
-      for (let i = 0; i < password.length; i++) {
-        if (
-          chars.indexOf(password[i]) >= 26 &&
-          chars.indexOf(password[i]) <= 51
-        ) {
+      for (let c of password) {
+        if (chars.indexOf(c) >= 26 && chars.indexOf(c) <= 51) {
           isLower = true;
           break;
         }
@@ -41,11 +38,8 @@ function generateStrongPasswordAsync() {
       }
 
       let isDigit = false;
-      for (let i = 0; i < password.length; i++) {
-        if (
-          chars.indexOf(password[i]) >= 52 &&
-          chars.indexOf(password[i]) <= 62
-        ) {
+      for (let c of password) {
+        if (chars.indexOf(c) >= 52 && chars.indexOf(c) <= 62) {
           isDigit = true;
           break;
         }
