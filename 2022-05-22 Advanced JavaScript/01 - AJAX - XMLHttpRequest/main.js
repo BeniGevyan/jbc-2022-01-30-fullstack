@@ -10,7 +10,7 @@ function getTodos() {
 
         todoUl.innerHTML = '';
 
-        for (let t of todoList) {
+        for (const t of todoList) {
           todoUl.innerHTML += `<li>${t.title}</li>`;
         }
       }
