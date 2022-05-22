@@ -18,33 +18,15 @@ function displayUsers(usersList) {
   }
 }
 
-// general ajax GET request
-function getJsonAsync(url) {
-  return new Promise((resolve, reject) => {
-    const request = new XMLHttpRequest();
-
-    request.onreadystatechange = () => {
-      if (request.readyState === 4) {
-        if (request.status <= 400) {
-          const data = JSON.parse(request.responseText);
-          resolve(data);
-        } else {
-          reject(new Error('Error code: ' + request.status));
-        }
-      }
-    };
-
-    request.open('GET', url);
-    request.send();
-  });
-}
-
 async function showAllusers() {
   try {
-    const users = await getJsonAsync(
-      'https://jsonplaceholder.typicode.com/users',
-    );
-    displayUsers(users);
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    if (response.status < 400) {
+      const users = await response.json();
+      displayUsers(users);
+    } else {
+      alert('Error from server');
+    }
   } catch (err) {
     alert(err.message);
   }
