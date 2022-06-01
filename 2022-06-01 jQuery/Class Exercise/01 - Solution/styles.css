@@ -1,0 +1,11 @@
+section > div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: x-large;
+  border: 1px solid black;
+  margin: 10px;
+  line-height: 100px;
+  display: inline-block;
+  background-color: red;
+}
