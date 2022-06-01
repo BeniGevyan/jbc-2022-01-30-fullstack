@@ -1,0 +1,38 @@
+#blueBtn {
+  background-color: blue;
+  color: white;
+  font-size: x-large;
+}
+
+#redBtn {
+  background-color: red;
+  color: white;
+  font-size: x-large;
+}
+
+section {
+  margin: auto;
+  width: 650px;
+  text-align: center;
+}
+
+section > div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: x-large;
+  border: 1px solid black;
+  margin: 10px;
+  line-height: 100px;
+  display: inline-block;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
