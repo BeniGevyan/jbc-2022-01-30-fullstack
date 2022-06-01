@@ -1,7 +1,7 @@
 # Class Exercise
 
 1. Create this webpage:  
-   ![red-divs](red-divs.png)
+   ![red-divs](red-divs.png)  
    Using jQuery, when the mouse cursor enters a div, change its background color to blue and the font color to white.  
    When the mouse cursor is getting out of a div, change its background color back to red and the font color to black.
 
