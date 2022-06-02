@@ -32,5 +32,4 @@ Full Stack Course started at 30th of January 2022
 24. [22/05/2022 Advanced JavaScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-05-22%20Advanced%20JavaScript)
 25. [25/05/2022 Advanced JavaScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-05-25%20Advanced%20JavaScript)
 26. [29/05/2022 jQuery](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-05-29%20jQuery)
-    2022-05-25%20Advanced%20JavaScript)
 27. [01/06/2022 jQuery](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-06-01%20jQuery)
