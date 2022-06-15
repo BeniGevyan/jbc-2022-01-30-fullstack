@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "../03 - Solution/js"
+  }
+}
