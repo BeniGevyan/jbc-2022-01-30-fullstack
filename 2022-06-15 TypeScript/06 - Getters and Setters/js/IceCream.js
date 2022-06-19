@@ -17,6 +17,6 @@ class IceCream {
         this._weight = value;
     }
     display() {
-        document.write(`Flavor: ${this.flavor}, Weight: ${this._weight}, Price: ${this._price} <br/>`);
+        document.write(`Flavor: ${this.flavor}, Weight: ${this.weight}, Price: ${this._price} <br/>`);
     }
 }

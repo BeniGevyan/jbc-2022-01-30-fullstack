@@ -21,7 +21,7 @@ class Dog {
   }
 
   public eat(): void {
-    // this.breed = 'Boxer'; // Error
+    //this.breed = 'Boxer'; // Error
     document.write(`${this.name} is eating...</br>`);
   }
 
