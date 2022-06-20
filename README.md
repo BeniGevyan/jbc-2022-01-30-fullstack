@@ -36,3 +36,4 @@ Full Stack Course started at 30th of January 2022
 28. [08/06/2022 Web Architecture](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-06-08%20Web%20Architecture)
 29. [12/06/2022 TypeScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-06-12%20TypeScript)
 30. [15/06/2022 TypeScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-06-15%20TypeScript)
+31. [19/06/2022 TypeScript](https://github.com/barsheshet/jbc-2022-01-30-fullstack/tree/main/2022-06-19%20TypeScript)
